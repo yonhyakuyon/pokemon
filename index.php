@@ -1,11 +1,15 @@
 <?
 //connection
-require_once 'Pockemon.php';
-require_once 'WaterPockemon.php';
+require_once 'Pokemon.php';
+require_once 'WaterPokemon.php';
+require_once 'FirePokemon.php';
+require_once 'EarthPokemon.php';
+require_once 'UniversalPokemon.php';
 
 //creating obj
-$squirtle = Pockemon::createPockemon('Water', 'Squirtle');
+$squirtle = Pokemon::createPockemon('Water', 'Squirtle');
+$charmander = Pokemon::createPockemon('Fire', 'Charmander');
 
-//test
-echo '<pre>';
-var_dump($squirtle);
+
+//output
+require_once 'output.php';

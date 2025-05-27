@@ -1,6 +1,6 @@
 <?php
 
- class WaterPockemon extends Pockemon
+ class WaterPokemon extends Pokemon
 {
   function __construct($name){
     parent::__construct('Water', $name);

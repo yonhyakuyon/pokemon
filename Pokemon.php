@@ -1,6 +1,6 @@
 <?php
 
-abstract class Pockemon
+abstract class Pokemon
 {
 
   protected string $type;
@@ -22,7 +22,13 @@ abstract class Pockemon
   public static function createPockemon($type, $name):object{
     
     switch($type){
-        case "Water":$pockemon = new WaterPockemon($name); 
+        case "Water":$pockemon = new WaterPokemon($name); 
+        break;
+        case "Fire":$pockemon = new FirePokemon($name); 
+        break;
+        case "Earth":$pockemon = new EarthPokemon($name); 
+        break;
+        case "Universal":$pockemon = new UniversalPokemon($name); 
         break;
   }
   return $pockemon;
