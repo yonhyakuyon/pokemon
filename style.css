@@ -1,0 +1,13 @@
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: auto;
+}
+
+pre.logo {
+    margin: 0;
+    padding: 20px 0;
+    text-align: left;
+}
