@@ -11,6 +11,8 @@ abstract class Pokemon
     $this->name = $name;
     $this->type = $type;
     
+    
+    
     /*    
     base damage = 20, 
     final damage = base + modifier
