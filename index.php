@@ -9,11 +9,14 @@ require_once 'Trainer.php';
 
 //creating obj
 $james = new Trainer('James');
+$shelly = new Trainer('Shelly');
 $squirtle = Pokemon::createPockemon('Water', 'Squirtle');
 $charmander = Pokemon::createPockemon('Fire', 'Charmander');
 
 //obj manipulating
 $james->addPokemons($charmander);
+$shelly->addPokemons($squirtle);
+$james->pokemonAttack(0,$shelly->getPokemon(0));
 
 //output
 require_once 'output.php';

@@ -40,9 +40,8 @@
         <? 
         // test
         echo '<pre>';
-        var_dump($charmander);
-        var_dump($squirtle);
         var_dump($james);
+        var_dump($shelly);
         ?>
     </div>
 </body>

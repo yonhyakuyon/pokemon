@@ -21,6 +21,13 @@ abstract class Pokemon
     $this->damage = 20; 
     $this->health = 35;
   }
+
+  public static function attack($enemy, $damage){
+    //pokemon attacks enemy
+    $enemyHealth = $enemy->getHealth();
+    $enemyAfterHealth = $enemyHealth - $damage;
+    $enemy->setHealth($enemyAfterHealth);
+  }
   public static function createPockemon($type, $name):object{
     
     switch($type){
