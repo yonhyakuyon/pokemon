@@ -14,6 +14,12 @@
     $pokemons[] = $pokemon;
     $this->pokemons = $pokemons;
   }
+
+  public function choosePokemon($id){
+    if(isset($this->pokemons[$id])){
+      return $this->pokemons[$id];
+    }
+  }
   
 
 	function getPokemons() { 

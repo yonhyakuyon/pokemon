@@ -43,7 +43,6 @@
         var_dump($charmander);
         var_dump($squirtle);
         var_dump($james);
-        var_dump($james->getPokemons());
         ?>
     </div>
 </body>
