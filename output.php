@@ -26,11 +26,6 @@
                     %%##***## %%%%%% %%%%%%       %%%%%           %%%%%%%# %%%####***##    
                      %%##*###%                                                 %%#####     
                       %%%%%                                                      %%%% 
-                         ______  __  __  ______      ______  ______  __    __  ______   
-                        /\__  _\/\ \_\ \/\  ___\    /\  ___\/\  __ \/\ "-./  \/\  ___\  
-                        \/_/\ \/\ \  __ \ \  __\    \ \ \__ \ \  __ \ \ \-./\ \ \  __\  
-                           \ \_\ \ \_\ \_\ \_____\   \ \_____\ \_\ \_\ \_\ \ \_\ \_____\
-                            \/_/  \/_/\/_/\/_____/    \/_____/\/_/\/_/\/_/  \/_/\/_____/
         </pre>
     </div>
 </header>
@@ -48,10 +43,7 @@
 
 <footer>
     <div class="footer-container">
-        <div class="footer-text">
-            <?echo $year?>, <a href="https://github.com/Gambler-Goblins" target="_blank">Gambler Goblins</a>
-            God bless open source
-        </div>
+        <?echo $year;?>, <a href="https://github.com/yonhyakuyon">@yonhyakuyon</a> fckd this sht :)
     </div>
 </footer>
 

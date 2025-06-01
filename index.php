@@ -19,9 +19,10 @@ $shelly->addPokemons($squirtle);
 $james->pokemonAttack(0,$shelly->getPokemon(0));
 
 
-//get current data for dynamic footer
+//dynamic footer connect
 $data = getdate();
 $year = $data["year"];
+
 
 //output
 require_once 'output.php';
