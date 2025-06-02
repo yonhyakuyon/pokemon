@@ -43,7 +43,7 @@
 
 <footer>
     <div class="footer-container">
-        <?echo $year;?>, <a href="https://github.com/yonhyakuyon">@yonhyakuyon</a> fckd this sht :)
+        <?echo $year;?>, <a href="https://github.com/yonhyakuyon" target="_blank">@yonhyakuyon</a> fckd dat sht :)
     </div>
 </footer>
 
