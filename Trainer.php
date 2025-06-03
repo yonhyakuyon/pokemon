@@ -14,6 +14,10 @@
     $pokemons[] = $pokemon;
     $this->pokemons = $pokemons;
   }
+  
+  private function randomInt(){
+    return rand(0, 10);
+  }
 
   public function pokemonAttack($id, $enemy){
     //choose pokemon for attack
